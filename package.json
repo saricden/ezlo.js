@@ -1,15 +1,19 @@
 {
   "name": "ezlo.js",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "author": "Kirk M. (@saricden)",
+  "description": "AI powered article generator",
   "main": "index.js",
   "bin": {
     "ezlo": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saricden/ezlo.js.git"
+  },
   "preferGlobal": true,
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
