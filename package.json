@@ -1,0 +1,22 @@
+{
+  "name": "ezlo.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ezlo": "./index.js"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.47.3",
+    "openurl": "^1.1.1",
+    "readline-sync": "^1.4.10",
+    "simpl.db": "^2.13.0"
+  }
+}

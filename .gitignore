@@ -1,0 +1,4 @@
+node_modules
+*.md
+*.png
+database.json

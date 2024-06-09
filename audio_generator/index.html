@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Generator</title>
+  <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+</head>
+<body>
+  <div>
+    <h1>Audio Generator</h1>
+    <audio controls id="audio" src="./audio.mp3"></audio>
+
+    <hr />
+
+    <form hx-post="/generate" hx-target="#audio" hx-swap="outerHTML" hx-indicator="#loader">
+      <textarea name="text" placeholder="Paste post here." rows="10" cols="50"></textarea>
+      <hr />
+      <button hx-swap="outerHTML">Generate Audio</button>
+      <div id="loader" style="display: none;">Loading...</div>
+    </form>
+
+  </div>
+
+</body>
+</html>
